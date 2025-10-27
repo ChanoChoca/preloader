@@ -69,6 +69,10 @@
   transform: translateY(0);
 }
 
+.preloader-header p {
+  word-spacing: clamp(0.1em, 0.4vw, 0.4em);
+}
+
 h1 {
   font-size: 7rem;
   user-select: none;
@@ -83,10 +87,7 @@ h1 {
   }
 
   .preloader-header p,
-  .preloader-header .char {
-    font-size: 4rem;
-  }
-
+  .preloader-header .char,
   h1 {
     font-size: 4rem;
   }
